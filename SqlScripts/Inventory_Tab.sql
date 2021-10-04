@@ -13,8 +13,11 @@ CREATE TABLE [dbo].[Inventory](
 	[Title] [varchar](max) NOT NULL,
 	[AuthorLastName] [varchar](max) NOT NULL,
 	[AuthorFirstName] [varchar](max) NOT NULL,
-	[Price] [numeric](10, 2) NOT NULL
+	[Price] [numeric](10, 2) NOT NULL,
+    [titlofcontainer] [varchar](max) NOT NULL,
+    [publicationDate] DateTime NOT NULL,
+    [location] [varchar](max) NOT NULL
+
 ) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
 GO
-
-
+  

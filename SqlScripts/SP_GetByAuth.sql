@@ -28,6 +28,9 @@ SELECT Publisher
       ,AuthorLastName
       ,AuthorFirstName
       ,Price
+      ,titlofcontainer
+      ,publicationDate
+      ,location
   FROM dbo.Inventory
   order by 
     AuthorLastName,AuthorFirstName,Title

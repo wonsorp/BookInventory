@@ -204,6 +204,7 @@
     <Content Include="SqlScripts\SP_GetByAuth.sql" />
     <Content Include="SqlScripts\SP_Getbypublisher.sql" />
     <Content Include="SqlScripts\Inventory_Tab.sql" />
+    <Content Include="SqlScripts\Test_Data_Insert.sql" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
